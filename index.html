@@ -1,9 +1,37 @@
 <html>
-
 	<meta charset='utf8'>
+	<style type="text/css">
+		html,body,div,text,span,button,ul,li,ol {padding:0;margin:0;}
+		ul,li,a{text-decoration: none;}
+		.app {
+			width:100%;
+			height: 100%;
+			background: orange;
+		}
+		.nav {
+			width: 100%;
+			font-size: 20px;
+		}
+	</style>
 	<body>
-	Hello LMACCC
-	
+		<div class="app">
+			<h1>LmACCC</h1>
+			<nav class="nav">
+				<a href="/">主页</a>
+				<a href="">介绍</a>
+				<a href="">其他</a>
+			</nav>
+			<div>
+				1.	进入到文件目录下
+				2.	提交前确认先让系统知道要提交的文件，通过
+				git add ./
+				3.	添加提交的备注
+				git commit -m 'xxx'
+				4.	先拉取远程仓库变化的内容
+				git pull
+				5.	正常的话直接把本地的代码提交到远程
+				git push
+			</div>
+		</div>
 	</body>
-
 </html>
